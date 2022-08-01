@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #ff6f3c;
+  --secondery-color: #ff9a3c;
+  --box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.6);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fdffcd;
+  padding: 20px;
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 68px;
+  color: #c8771c;
+}
+.control-panel {
+  padding: 30px;
+}
+
+.order-button {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  max-width: 200px;
+  text-align: center;
+}
+
+.go-to-photo {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: var(--secondery-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  max-width: 200px;
+  text-align: center;
+}
+
+.finish-line {
+  text-align: center;
+}

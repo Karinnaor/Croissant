@@ -4,13 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>VOTE!</h1>
-    <h2>Croissant is the only one to bring happiness to all!</h2>
-    <a href="/contact.html">Go Croissant!</a>
-    <h2>want to take a look at your favorite candidate?</h2>
-    <a href="/photo.html">show me!</a>
+    <h1>Your croissant is ready</h1>
+    <div class="container d-flex justify-content-center w-50">
+      <img
+        src="/images/serving-croissant.jpg"
+        alt=""
+        class="img-fluid rounded p-2 border w-75 center"
+      />
+    </div>
+    <div class="control-panel">
+      <div class="row">
+        <div class="col-6 text-end">
+          <h2>Order now!</h2>
+        </div>
+        <div class="col-6 text-start">
+          <a href="/contact.html" class="order-button">Go Croissant!</a>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-2 text-end">
+          <h2>Photo gallery</h2>
+        </div>
+        <div class="col-10 text-start">
+          <a href="/photo.html" class="go-to-photo">show me!</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
